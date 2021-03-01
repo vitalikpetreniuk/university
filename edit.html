@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>University of Shire</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+<!--navbar-->
+<nav class="navbar navbar-expand-lg ">
+    <a class="navbar-brand" href="#"><img src="images/shire_logo.svg" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav mr-4">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Menu1</a>
+                <ul class="submenu">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Menu</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#">Menu2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#">Menu3</a>
+            </li>
+        </ul>
+    </div>
+    <div class="nav-login">User:<a href="#"> John Doe</a></div>
+</nav>
+<div class="main">
+    <div class="h1-wrapper px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+        <h2>Students</h2>
+    </div>
+    <div class="container">
+        <div class="row edit-container">
+            <div class="edit-form-wrapper table-responsive col-lg-6 col-md-6 col-sm-12">
+                <form class="edit-form p-4 mb-4">
+                    <div class="form-group row">
+                        <label for="firstName" class="col-sm-4 col-form-label text-center">First name</label>
+                        <div class="col-sm-8 mb-4">
+                            <input type="email" class="form-control" id="firstName" placeholder="Alex">
+                        </div>
+                        <label for="lastName" class="col-sm-4 col-form-label text-center">Last name</label>
+                        <div class="col-sm-8 mb-4">
+                            <input type="email" class="form-control" id="lastName" placeholder="Loyd">
+                        </div>
+                    </div>
+                    <div class="btn-toolbar d-flex justify-content-end" role="toolbar">
+                        <div class="btn-group mr-4" role="group">
+                            <button type="button" class="btn">Discard</button>
+                        </div>
+                        <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-primary">Change</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="edit-table-wrapper col-lg-6 col-md-6 col-sm-12">
+                <div class="edit-table-wrapper">
+                    <table class="table edit-table table-striped table-bordered text-center">
+                        <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">FirstName</th>
+                            <th scope="col">LastName</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Bob</td>
+                                <td>Peters</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Bob</td>
+                                <td>Peters</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Bob</td>
+                                <td>Peters</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Bob</td>
+                                <td>Peters</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Bob</td>
+                                <td>Peters</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Bob</td>
+                                <td>Peters</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>Bob</td>
+                                <td>Peters</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>Bob</td>
+                                <td>Peters</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>Bob</td>
+                                <td>Peters</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>Bob</td>
+                                <td>Peters</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <div class="container text-center">
+        <span class="text-muted">Copyright 2021, University of Shire</span>
+    </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

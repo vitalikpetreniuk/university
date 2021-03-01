@@ -1,0 +1,123 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin-bottom: 60px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+}
+h1 {
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.submenu {
+    display: none;
+    position: absolute;
+    list-style: none;
+    padding-left: 0;
+    background-color: #fff;
+    border: 1px solid #f5f5f5;
+}
+.submenu li {
+    padding: 0px 20px;
+}
+.navbar-expand-lg .navbar-nav .nav-link,.nav-login a {
+    color: #343a40!important;
+}
+.submenu li:not(:last-of-type) {
+    border-bottom: 1px solid #f5f5f5;
+}
+.navbar {
+    background-color: #f5f5f5;
+}
+.nav-item:hover .submenu {
+    display: block;
+}
+.navbar img {
+    width: 90px;
+    height: 90px;
+}
+.top-stripe {
+    height: 115px;
+    width: 100%;
+    background-color: #f5f5f5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.logo-desc {
+    font-size: 1.7rem;
+}
+.form-logo {
+    background-color: #f5f5f5;
+    width: 120px;
+    height: 120px;
+    max-width: fit-content;
+    max-height: fit-content;
+    margin: 0 auto;
+    box-sizing: content-box;
+}
+.form-logo img {
+    width: 120px;
+    height: 120px;
+}
+.form-container form,.edit-form {
+    border: 1px solid #ced4da;
+}
+.one-size-btn {
+    width: 155px;
+}
+.form-desc {
+    font-size: 1.2rem;
+}
+.table-wrapper {
+    margin-bottom: 100px;
+}
+.schedule-table thead,.edit-table thead {
+    background-color: #ffeeba;
+}
+.schedule-table thead tr,.schedule-table thead th,.edit-table thead tr,.edit-table thead th {
+    border-color: #ffdf7e;
+    vertical-align: middle;
+
+}
+.schedule-table tbody tr td.table-day {
+    vertical-align: middle!important;
+    background-color: #fff;
+    width: 20px;
+}
+.schedule-table tbody tr td.table-day p {
+    width:20px;
+    padding-bottom: 0;
+    margin: 0;
+    margin-top: 25px;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+.schedule-table th,.schedule-table td,.edit-table th,.edit-table td {
+    text-align: center;
+    vertical-align: middle!important;
+}
+.edit-table tbody tr td:nth-of-type(1) {
+    width: 48px;
+}
+.edit-container {
+    margin-bottom: 100px;
+}
+
