@@ -120,4 +120,8 @@ h1 {
 .edit-container {
     margin-bottom: 100px;
 }
-
+@media (max-width: 992px) {
+    .submenu {
+        position: relative;
+    }
+}
