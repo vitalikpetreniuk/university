@@ -124,4 +124,9 @@ h1 {
     .submenu {
         position: relative;
     }
+    .nav-login {
+        position: absolute;
+        top: 46px;
+        right: 100px;
+    }
 }
