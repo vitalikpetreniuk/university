@@ -141,6 +141,7 @@ h1 {
     }
     .nav-login a {
         max-width: 100px;
+        word-break: break-word;
     }
 
 }
